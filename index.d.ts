@@ -1,1 +1,1 @@
-export * from './src';
+export { ClickOutsideDirective } from './clickOutside.directive';
