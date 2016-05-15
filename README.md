@@ -4,6 +4,9 @@ This is a directive for detecting clicks outside of a DOM element where the dire
 
 PRs welcome!
 
+## Setup
+Run `npm i angular2-click-outside` and configure SystemJS accordingly.
+
 ## Sample Usage
 Using this directive is as easy as:
 
