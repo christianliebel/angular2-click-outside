@@ -10,3 +10,7 @@ Using this directive is as easy as:
 ```[html]
 <div (clickOutside)="close()"></div>
 ```
+
+## Requirements
+
+Angular 2 RC 0 or later
