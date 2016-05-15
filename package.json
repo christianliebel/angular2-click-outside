@@ -1,0 +1,32 @@
+{
+  "name": "angular2-click-outside",
+  "version": "1.0.0",
+  "description": "Outside-click directive for Angular 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chliebel/angular2-click-outside.git"
+  },
+  "keywords": [
+    "angular2",
+    "ng2",
+    "angular",
+    "outside",
+    "click",
+    "directive"
+  ],
+  "author": "Christian Liebel",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/chliebel/angular2-click-outside/issues"
+  },
+  "homepage": "https://github.com/chliebel/angular2-click-outside#readme",
+  "devDependencies": {
+    "@angular/core": "^2.0.0-rc.1",
+    "rxjs": "^5.0.0-beta.6",
+    "zone.js": "^0.6.6"
+  }
+}
