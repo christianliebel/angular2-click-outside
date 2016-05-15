@@ -26,7 +26,12 @@
   "homepage": "https://github.com/chliebel/angular2-click-outside#readme",
   "devDependencies": {
     "@angular/core": "^2.0.0-rc.1",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.13.4",
+    "merge2": "^1.0.2",
     "rxjs": "^5.0.0-beta.6",
+    "typings": "^0.8.1",
     "zone.js": "^0.6.6"
   }
 }
