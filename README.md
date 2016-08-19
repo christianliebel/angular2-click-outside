@@ -14,6 +14,12 @@ Using this directive is as easy as:
 <div (clickOutside)="close()"></div>
 ```
 
+You can pass the original `MouseEvent` to the registered handler as follows:
+
+```[html]
+<div (clickOutside)="close($event)"></div>
+```
+
 ## Requirements
 
 Angular 2 RC 0 or later
