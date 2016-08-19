@@ -23,13 +23,13 @@ System.register(['@angular/core'], function(exports_1, context_1) {
                     this._elementRef = _elementRef;
                     this.clickOutside = new core_1.EventEmitter();
                 }
-                ClickOutsideDirective.prototype.onClick = function (targetElement) {
+                ClickOutsideDirective.prototype.onClick = function (event, targetElement) {
                     if (!targetElement) {
                         return;
                     }
                     var clickedInside = this._elementRef.nativeElement.contains(targetElement);
                     if (!clickedInside) {
-                        this.clickOutside.emit(null);
+                        this.clickOutside.emit(event);
                     }
                 };
                 __decorate([
@@ -37,9 +37,9 @@ System.register(['@angular/core'], function(exports_1, context_1) {
                     __metadata('design:type', Object)
                 ], ClickOutsideDirective.prototype, "clickOutside", void 0);
                 __decorate([
-                    core_1.HostListener('document:click', ['$event.target']), 
+                    core_1.HostListener('document:click', ['$event', '$event.target']), 
                     __metadata('design:type', Function), 
-                    __metadata('design:paramtypes', [Object]), 
+                    __metadata('design:paramtypes', [MouseEvent, HTMLElement]), 
                     __metadata('design:returntype', void 0)
                 ], ClickOutsideDirective.prototype, "onClick", null);
                 ClickOutsideDirective = __decorate([
