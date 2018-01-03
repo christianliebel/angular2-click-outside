@@ -22,4 +22,6 @@ You can pass the original `MouseEvent` to the registered handler as follows:
 
 ## Requirements
 
-Angular 2 RC 0 or later
+Angular 2 RC 0 
+Angular 4+ goto https://www.npmjs.com/package/ng-click-outside
+
